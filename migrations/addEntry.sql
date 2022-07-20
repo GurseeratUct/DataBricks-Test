@@ -1,1 +1,2 @@
+USE SCHEMA DEMO;
 Insert INTO HELLO_WORLD VALUES ('Leonard','Tan',30);
