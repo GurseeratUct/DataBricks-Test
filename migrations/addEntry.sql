@@ -1,0 +1,1 @@
+Insert INTO HELLO WORLD VALUES ('Leonard','Tan',30);
