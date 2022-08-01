@@ -11,12 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
-      - name: Approval
-        uses: GurseeratUct/DataBricks-Test@v2
+      - uses: GurseeratUct/manual-approval@v1
         with:
           secret: ${{ github.TOKEN }}
-          approvers: GurseeratUct
+          approvers: user1,user2,org-team1
+          minimum-approvals: 1
+          issue-title: "Deploying v1.3.5 to prod from staging"
           
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
