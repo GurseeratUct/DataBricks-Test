@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/manual-approval@v1.3.5
+      - name: Manual Workflow Approval
+        uses: trstringer/manual-approval@v1.5.1
         with:
           secret: ${{ github.TOKEN }}
           approvers: user1,user2,org-team1
