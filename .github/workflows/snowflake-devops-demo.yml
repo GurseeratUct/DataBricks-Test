@@ -13,7 +13,7 @@ jobs:
     steps:
     
       - name: Approval
-        uses: GurseeratUct/manual-approval@v1
+        uses: GurseeratUct/DataBricks-Test@v1
         with:
           secret: ${{ github.TOKEN }}
           approvers: GurseeratUct
