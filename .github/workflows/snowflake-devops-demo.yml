@@ -22,7 +22,7 @@ jobs:
           secret: ${{ github.TOKEN }}
           approvers: GurseeratUct,rdeshmukhuct
           minimum-approvals: 1
-          issue-title: "Deploying v1.3.5 to prod from staging"
+  
           
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
